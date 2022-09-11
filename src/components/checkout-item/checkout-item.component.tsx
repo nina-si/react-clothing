@@ -7,12 +7,12 @@ import {
   clearItemFromCart,
 } from '../../store/cart/cart.action';
 import { selectCartItems } from '../../store/cart/cart.selector';
-import { CartItem } from '../../store/cart/cart.types';
+import { TCartItem } from '../../store/cart/cart.types';
 
 import './checkout-item.styles.scss';
 
 type CheckoutItemProps = {
-  cartItem: CartItem;
+  cartItem: TCartItem;
 };
 
 const CheckoutItem: FC<CheckoutItemProps> = ({ cartItem }) => {

@@ -1,6 +1,5 @@
 import { FC } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { CategoryItem } from '../../store/categories/category.types';
 import { DirectoryCategory } from '../categories/categories.component';
 
 import {
